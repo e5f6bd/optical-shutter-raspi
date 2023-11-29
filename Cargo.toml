@@ -7,4 +7,10 @@ edition = "2021"
 
 [dependencies]
 anyhow = "1.0.75"
+env_logger = "0.10.1"
+fs-err = "2.11.0"
+log = "0.4.20"
 rppal = "0.15.0"
+serde = { version = "1.0.193", features = ["derive"] }
+serde_json = "1.0.108"
+toml = "0.8.8"
